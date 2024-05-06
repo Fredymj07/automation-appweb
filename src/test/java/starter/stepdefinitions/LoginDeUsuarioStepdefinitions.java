@@ -11,7 +11,7 @@ public class LoginDeUsuarioStepdefinitions {
     @Steps
     LoginDeUsuarioSteps loginDeUsuarioSteps;
 
-    @Given("el usuario se encuentra en la pantalla de login del Portal Crediticio")
+    @Given("el usuario se encuentra en la pantalla de login")
     public void abrirAppWeb() {
         loginDeUsuarioSteps.abrirAppWeb();
     }

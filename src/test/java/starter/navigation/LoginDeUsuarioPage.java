@@ -6,9 +6,9 @@ import org.openqa.selenium.By;
 
 public class LoginDeUsuarioPage extends PageObject {
 
-    By txtUsuario = By.xpath("//*[@id='id_username']");
-    By txtContrasenia = By.xpath("//*[@id='id_password']");
-    By btnIniciarSesion = By.xpath("/html/body/div/div/div/div/div/div/div/div/form/div[4]/button");
+    By txtUsuario = By.xpath("//*[@id='formBasicEmail']");
+    By txtContrasenia = By.xpath("//*[@id='formBasicPassword']");
+    By btnIniciarSesion = By.xpath("//*[@id='root']/div/div/form/a");
 
     public void abrirAppWeb() {
         open();
